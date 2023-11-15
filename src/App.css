@@ -1,42 +1,44 @@
 #root {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
   text-align: center;
 }
 
 .header {
   border: 5px solid red;
-  padding: 1em;
-  margin: 1em;
+  padding: 0.5em;
+  margin: 0.5em;
 }
 
 .cart {
   border: 5px solid dodgerblue;
-  padding: 1em;
-  margin: 1em;
+  padding: 0.5em;
+  margin: 0.5em;
 }
 
 .cart-wrapper {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 30px;
+  gap: 1em;
 }
 
 .cart-content {
   border: 5px solid hotpink;
-  padding: 1em;
-  margin: 1em;
+  padding: 0.5em;
+  margin: 0.5em;
 }
 
 .cart-item {
   border: 5px solid orange;
-  padding: 1em;
-  margin: 1em;
+  padding: 0.5em;
+  margin: 0.5em;
+  display: flex;
+  justify-content: space-between;
 }
 
 .cart-summary {
   border: 5px solid green;
-  padding: 1em;
-  margin: 1em;
+  padding: 0.5em;
+  margin: 0.5em;
 }
